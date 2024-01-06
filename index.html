@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Survey Form</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+
+    <form id="survey-form">
+      <label id="name-label">Name <input id="name" type="text" placeholder="Enter your full name" required/></label>
+      <label id="email-label">Email <input id="email" type="email" placeholder="Enter your email adress" required/></label>
+      <label id="number-label">Age <input id="number" type="number" min="13" max="120" placeholder="Years"/></label>
+      
+      <label id="role-label">Which option best describes your current role?
+        <select id="dropdown">
+          <option id="1">Select current role</option>
+          <option id="2">Student</option>
+          <option id="4">Full time job</option>
+          <option ud="5">Other</option>
+        </select>
+      </label>
+
+      <label class="group" id="recommend-label">Would you recommend our platform to a friend?
+        <label for="button1"><input id="button1" type="radio" name="recommend" value="Value1" class="inline" checked>Definitely</label>
+        <label for="button2"><input id="button2" type="radio" name="recommend" value="Value2" class="inline"/>Maybe</label>
+        <label for="button3"><input id="button3" type="radio" name="recommend" value="Value3" class="inline"/>Not sure</label>
+      </label>
+
+      <label id="improve-label">What would you like to see improved?
+        <label><input name="field1" type="checkbox" value="Value1" class="inline"/> Front-end Projects</label>
+        <label><input name="field2" type="checkbox" value="Value2" class="inline"/> Back-end Projects</label>
+        <label><input name="field3" type="checkbox" value="Value3" class="inline"/> Machine Learning</label>
+      </label>
+
+      <label for="comment">Any comments or suggestions?<textarea id="comment"/></textarea></label>
+
+      <button type="submit" id="submit">Submit</button>
+    </form>
+  </body>
+</html>
