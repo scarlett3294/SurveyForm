@@ -1,0 +1,59 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #f3ecdb;
+    margin: 0;
+    padding: 40px;
+    background-color: #f3ecdb;
+  
+  }
+  
+  h1 {
+    text-align: center;
+    color: #3e503c;
+  }
+  
+  #description {
+    text-align: center;
+    color: #ff6f3d;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #7f866a;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #3e503c;
+    border-radius: 4px;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .group {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  select, textarea {
+    resize: vertical;
+  }
+  
+  .inline {
+    display: inline;
+  }
